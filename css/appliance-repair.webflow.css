@@ -4436,7 +4436,7 @@ h1 {
 .cards-section-2 {
   display: block;
   width: auto;
-  margin-top: 274px;
+  margin-top: 363px;
   padding-top: 40px;
   padding-bottom: 40px;
   border-style: solid;
@@ -5861,7 +5861,7 @@ h1 {
   .grid-3 {
     width: 100%;
     margin-top: 6px;
-    margin-bottom: 5px;
+    margin-bottom: 13px;
     padding-right: 0px;
     padding-left: 0px;
     -webkit-box-pack: center;
@@ -5883,7 +5883,7 @@ h1 {
 
   .cards-section-2 {
     display: block;
-    margin-top: 219px;
+    margin-top: 312px;
     padding-top: 0px;
     padding-bottom: 0px;
   }
@@ -6662,7 +6662,7 @@ h1 {
     position: static;
     display: block;
     width: 75%;
-    margin-top: 65px;
+    margin-top: 146px;
     margin-right: auto;
     margin-left: auto;
     padding: 40px 20px;
@@ -7519,10 +7519,10 @@ h1 {
     display: block;
     width: 100%;
     max-width: 100%;
-    margin-top: 110px;
+    margin-top: 41px;
     margin-left: 0px;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 34px;
     padding-left: 0px;
     clear: both;
     font-size: 100%;
