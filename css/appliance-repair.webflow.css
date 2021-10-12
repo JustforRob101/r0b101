@@ -7923,6 +7923,11 @@ h1 {
   }
 }
 
+@media screen and (max-width: 479px)
+.cards-section-2 {
+    margin-top: 122px;
+}
+
 @font-face {
   font-family: 'Fa 400';
   src: url('../fonts/fa-regular-400.woff2') format('woff2');
