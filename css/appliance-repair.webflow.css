@@ -7314,7 +7314,7 @@ h1 {
   .grid-holder {
     display: -ms-grid;
     display: grid;
-    margin-top: 53px;
+    margin-top: 14px;
     padding-top: 3px;
     padding-bottom: 79px;
     grid-auto-columns: 1fr;
@@ -7519,7 +7519,7 @@ h1 {
     display: block;
     width: 100%;
     max-width: 100%;
-    margin-top: 36px;
+    margin-top: 110px;
     margin-left: 0px;
     padding-top: 40px;
     padding-bottom: 40px;
