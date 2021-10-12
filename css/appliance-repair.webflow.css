@@ -7519,7 +7519,7 @@ h1 {
     display: block;
     width: 100%;
     max-width: 100%;
-    margin-top: 1px;
+    margin-top: 36px;
     margin-left: 0px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -7537,7 +7537,7 @@ h1 {
 
   .heading-9 {
     overflow: visible;
-    margin-top: 6px;
+    margin-top: 127px;
     padding-top: 22px;
     padding-bottom: 22px;
     font-size: 15px;
@@ -7556,9 +7556,7 @@ h1 {
 
   .grid-3 {
     width: 90%;
-    margin-top: 28px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 28px auto 4px;
     padding-left: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -7579,7 +7577,7 @@ h1 {
   .cards-section-2 {
     display: block;
     width: 95vw;
-    margin-top: 12px;
+    margin-top: 172px;
     margin-right: auto;
     margin-left: auto;
     -webkit-box-flex: 0;
@@ -7631,7 +7629,7 @@ h1 {
   .image-58 {
     width: 90%;
     margin-top: 140px;
-    padding-top: 106px;
+    padding-top: 200px;
   }
 
   .section-6 {
@@ -7921,10 +7919,6 @@ h1 {
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
-}
-
-.cards-section-2 {
-    margin-top: 122px!important;
 }
 
 @font-face {
