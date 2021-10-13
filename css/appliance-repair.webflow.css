@@ -265,7 +265,8 @@ h1 {
   display: block;
   width: auto;
   height: auto;
-  margin-top: 0px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .demo-arrow-wrapper {
@@ -1159,7 +1160,7 @@ h1 {
   color: #fff;
   font-size: 30px;
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -1552,7 +1553,7 @@ h1 {
   display: block;
   overflow: visible;
   width: 100%;
-  margin: 141px 0px 0px;
+  margin: 86px 0px 0px;
   padding: 0%;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -3203,11 +3204,13 @@ h1 {
 }
 
 .grid-holder {
-  position: relative;
+  position: static;
   z-index: 5;
   display: -ms-grid;
   display: grid;
-  width: 100%;
+  width: 90%;
+  margin-top: 40px;
+  margin-bottom: 40px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -4354,15 +4357,16 @@ h1 {
 
 .heading-9 {
   display: block;
-  margin-top: 8px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
   border: 1px none #000;
   background-color: rgba(21, 44, 83, 0.86);
   color: #fff;
+  font-size: 1.5em;
   text-align: center;
-  white-space: normal;
+  white-space: nowrap;
 }
 
 .image-48 {
@@ -4988,8 +4992,7 @@ h1 {
 }
 
 .feature-grid {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px 10px;
   grid-column-gap: 256px;
   grid-row-gap: 78px;
   -ms-grid-columns: 2.5fr 2.5fr;
@@ -5052,8 +5055,9 @@ h1 {
   border: 1px none #000;
   background-color: rgba(21, 44, 83, 0.86);
   color: #fff;
+  font-size: 1.6em;
   text-align: center;
-  white-space: normal;
+  white-space: nowrap;
 }
 
 .card-image {
@@ -5104,6 +5108,17 @@ h1 {
   color: hsla(0, 0%, 100%, 0.85);
   font-size: 2.5em;
   text-shadow: 3px 3px 10px #000;
+}
+
+.link-11 {
+  position: static;
+  margin: 10px auto;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-size: 2.4em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 @media screen and (min-width: 1920px) {
@@ -5158,6 +5173,7 @@ h1 {
   .section.grid {
     display: block;
     margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .demo-banner-bottom-wrapper {
@@ -6047,6 +6063,10 @@ h1 {
     text-align: center;
   }
 
+  .grid-holder {
+    width: 80%;
+  }
+
   .div-block-57 {
     margin-right: auto;
     margin-left: auto;
@@ -6182,7 +6202,8 @@ h1 {
   .heading-5 {
     width: 100%;
     margin-top: 0px;
-    padding-top: 16px;
+    margin-bottom: 0px;
+    padding-top: 20px;
   }
 
   .heading-9 {
@@ -6195,10 +6216,9 @@ h1 {
 
   .grid-3 {
     width: 100%;
-    margin-top: 6px;
-    margin-bottom: 13px;
-    padding-right: 0px;
-    padding-left: 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 10px 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -6361,8 +6381,9 @@ h1 {
   }
 
   .section.grid {
+    display: block;
     overflow: visible;
-    height: 25vh;
+    height: 23vh;
     margin-top: 0px;
   }
 
@@ -6504,6 +6525,7 @@ h1 {
 
   .display-heading.home-text {
     font-size: 35px;
+    white-space: nowrap;
   }
 
   .display-heading.home-text-copy {
@@ -6728,7 +6750,7 @@ h1 {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 80%;
+    width: 90%;
     margin-top: 0px;
     padding-top: 0px;
     -webkit-box-orient: horizontal;
@@ -6751,6 +6773,7 @@ h1 {
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
+    font-size: 10%;
   }
 
   .div-block-57 {
@@ -7010,6 +7033,8 @@ h1 {
   }
 
   .cards-section {
+    margin-top: 140px;
+    margin-bottom: 140px;
     padding: 0px;
   }
 
@@ -7032,7 +7057,7 @@ h1 {
   }
 
   .heading-9 {
-    margin-top: 16px;
+    margin-top: 20px;
   }
 
   .paragraph-9 {
@@ -7040,6 +7065,8 @@ h1 {
   }
 
   .grid-3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding-left: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -7155,7 +7182,15 @@ h1 {
     padding-top: 0px;
   }
 
+  .section-6 {
+    margin-top: 0px;
+  }
+
   .div-block-63 {
+    display: none;
+  }
+
+  .new-grid {
     display: none;
   }
 
@@ -7187,6 +7222,7 @@ h1 {
   }
 
   .content-section-3 {
+    margin-top: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -7215,11 +7251,15 @@ h1 {
   }
 
   .heading-9-copy {
-    margin-top: 16px;
+    margin-top: -76px;
   }
 
   .card-image.cardimage1 {
     text-align: left;
+  }
+
+  .link-11 {
+    font-size: 1.7em;
   }
 }
 
@@ -7308,6 +7348,8 @@ h1 {
 
   .section.grid {
     top: auto;
+    display: block;
+    height: 15vh;
     margin-top: 0px;
     padding-top: 0px;
     background-color: transparent;
@@ -7458,10 +7500,25 @@ h1 {
   }
 
   .logot1 {
+    position: fixed;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
     display: block;
-    max-width: 150px;
+    overflow: visible;
+    max-width: none;
+    min-width: 0.1em;
+    margin-top: 10px;
+    margin-right: 15px;
     margin-left: 3px;
-    font-size: 20px;
+    clear: none;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    font-size: 1.1em;
+    text-align: left;
   }
 
   .content-wrap.services-contetn-wrapper {
@@ -7531,9 +7588,14 @@ h1 {
   }
 
   .display-heading.home-text {
-    margin-top: 12px;
-    margin-bottom: 32px;
-    font-size: 30px;
+    display: block;
+    width: auto;
+    max-width: none;
+    margin: 12px auto 32px;
+    font-size: 0.8em;
+    text-align: center;
+    text-transform: capitalize;
+    white-space: nowrap;
   }
 
   .hero-paragraph {
@@ -7541,7 +7603,9 @@ h1 {
   }
 
   .button-text.main-hero-button-text-2 {
-    font-size: 15px;
+    font-size: 0.7em;
+    line-height: 0.5;
+    white-space: nowrap;
   }
 
   .button-text.main-hero-button-text-2-copy {
@@ -7550,8 +7614,10 @@ h1 {
 
   .container.main-hero-container.main-home-area {
     width: 95%;
-    height: 50%;
+    height: 15%;
     margin-top: 0px;
+    padding-right: 0%;
+    padding-left: 0%;
   }
 
   .lets-talkin-main2 {
@@ -7561,7 +7627,9 @@ h1 {
 
   .lets-talkin-main2.hero-main-button {
     margin-top: 30px;
+    margin-right: auto;
     background-color: #fff;
+    white-space: nowrap;
   }
 
   .slide-content-wrap {
@@ -7789,9 +7857,10 @@ h1 {
     display: -ms-grid;
     display: grid;
     width: 75%;
-    margin-top: 3px;
-    padding-top: 3px;
-    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     grid-auto-columns: 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
@@ -7971,6 +8040,9 @@ h1 {
   }
 
   .cards-section {
+    display: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding-top: 0px;
     color: transparent;
   }
@@ -8000,8 +8072,11 @@ h1 {
     padding-bottom: 0px;
     padding-left: 0px;
     clear: both;
-    font-size: 100%;
-    line-height: 15px;
+    font-size: 0.9px;
+    line-height: 23px;
+    font-weight: 500;
+    text-transform: capitalize;
+    white-space: nowrap;
     -o-object-fit: fill;
     object-fit: fill;
   }
@@ -8012,17 +8087,19 @@ h1 {
 
   .heading-9 {
     overflow: visible;
-    margin-top: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-top: 22px;
     padding-bottom: 22px;
-    font-size: 15px;
-    letter-spacing: normal;
+    font-size: 0.6em;
+    line-height: 120%;
+    letter-spacing: 0.1em;
     text-decoration: none;
-    text-indent: 0px;
+    text-indent: 1px;
     text-transform: capitalize;
     -webkit-column-count: auto;
     column-count: auto;
-    white-space: normal;
+    white-space: nowrap;
   }
 
   .section-5 {
@@ -8031,7 +8108,7 @@ h1 {
 
   .grid-3 {
     width: 90%;
-    margin: 28px auto 4px;
+    margin: 10px auto;
     padding-left: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -8080,7 +8157,7 @@ h1 {
     margin-top: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 20em;
   }
 
   .div-block-60 {
@@ -8137,14 +8214,21 @@ h1 {
     font-size: 2em;
   }
 
+  .feature-card.cards {
+    width: 220px;
+    height: 120px;
+  }
+
   .feature-grid {
+    width: 90%;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 
   .content-section-3 {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .card-paragraph-2 {
@@ -8161,17 +8245,21 @@ h1 {
 
   .heading-9-copy {
     overflow: visible;
-    margin-top: 80px;
+    margin-top: 5px;
     padding-top: 22px;
     padding-bottom: 22px;
-    font-size: 15px;
+    font-size: 1.2em;
     letter-spacing: normal;
     text-decoration: none;
     text-indent: 0px;
     text-transform: capitalize;
     -webkit-column-count: auto;
     column-count: auto;
-    white-space: normal;
+    white-space: break-spaces;
+  }
+
+  .card-title-name {
+    font-size: 1.5em;
   }
 }
 
