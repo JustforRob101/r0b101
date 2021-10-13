@@ -1,3 +1,4 @@
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -8107,7 +8108,7 @@ h1 {
   }
 
   .grid-3 {
-    width: 90%;
+    width: 70%;
     margin: 10px auto;
     padding-left: 0px;
     -webkit-box-pack: center;
