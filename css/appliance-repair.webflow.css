@@ -3181,24 +3181,27 @@ h1 {
 }
 
 .image-44 {
-  width: 75px;
+  width: 4em;
   opacity: 0.94;
 }
 
 .image-44-copy {
-  width: 75px;
+  width: 4em;
+  max-width: none;
   opacity: 0.94;
 }
 
 .image-44-copy-copy {
-  width: 75px;
+  width: 4em;
+  max-width: none;
   opacity: 0.94;
+  font-size: 1.1em;
 }
 
 .banner-text {
   font-family: Inter, sans-serif;
   color: rgba(255, 255, 255, 0.77);
-  font-size: 1.6em;
+  font-size: 1.1em;
   line-height: 1.2;
   font-weight: 500;
   text-align: center;
@@ -3209,7 +3212,7 @@ h1 {
   z-index: 5;
   display: -ms-grid;
   display: grid;
-  width: 90%;
+  width: 80%;
   margin-top: 40px;
   margin-bottom: 40px;
   -webkit-box-pack: justify;
@@ -4442,10 +4445,9 @@ h1 {
   padding-right: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   justify-items: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -4775,8 +4777,9 @@ h1 {
 }
 
 .image-58 {
-  max-width: 80%;
-  margin-top: -6px;
+  width: 45%;
+  max-width: none;
+  margin-top: 0px;
 }
 
 .section-6 {
@@ -4899,11 +4902,9 @@ h1 {
 }
 
 .container-tight {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  max-width: 80%;
+  display: block;
+  width: 100%;
+  max-width: none;
   margin-right: auto;
   margin-left: auto;
   -webkit-box-orient: vertical;
@@ -4915,6 +4916,13 @@ h1 {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
 }
 
 .title-wrap {
@@ -4993,11 +5001,30 @@ h1 {
 }
 
 .feature-grid {
+  display: -ms-grid;
+  display: grid;
   margin: 50px 10px;
-  grid-column-gap: 256px;
-  grid-row-gap: 78px;
-  -ms-grid-columns: 2.5fr 2.5fr;
-  grid-template-columns: 2.5fr 2.5fr;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
 }
 
 .content-section-3 {
@@ -5007,6 +5034,7 @@ h1 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: auto;
   padding-right: 0%;
   padding-left: 0%;
   -webkit-box-orient: vertical;
@@ -5072,24 +5100,28 @@ h1 {
 
 .card-image.cardimage2 {
   position: relative;
+  width: 95%;
   border-radius: 0px;
 }
 
 .card-image.cardimage1 {
   position: relative;
   overflow: hidden;
+  width: 95%;
   border-radius: 0px;
   background-image: url('../images/washer.jpeg');
   opacity: 1;
 }
 
 .card-image.cardimage3 {
+  width: 95%;
   border-radius: 0px;
   background-image: url('../images/shutterstock_1009360840-min.jpg');
   background-size: cover;
 }
 
 .card-image.cardimage4 {
+  width: 95%;
   border-radius: 0px;
   background-image: url('../images/shutterstock_1303099636-min.jpg');
 }
@@ -6060,6 +6092,7 @@ h1 {
 
   .banner-text {
     max-width: 100px;
+    font-size: 0.8em;
     line-height: 1;
     text-align: center;
   }
@@ -7184,7 +7217,7 @@ h1 {
   }
 
   .section-6 {
-    margin-top: 0px;
+    margin-top: 100px;
   }
 
   .div-block-63 {
@@ -7354,6 +7387,7 @@ h1 {
     margin-top: 0px;
     padding-top: 0px;
     background-color: transparent;
+    font-size: 9.7em;
   }
 
   .demo-arrow-wrapper {
@@ -7416,6 +7450,7 @@ h1 {
   }
 
   .nav-wrapper {
+    position: static;
     margin-right: 0px;
   }
 
@@ -7501,11 +7536,12 @@ h1 {
   }
 
   .logot1 {
-    position: fixed;
+    position: absolute;
     left: auto;
     top: 0%;
     right: 0%;
     bottom: auto;
+    z-index: auto;
     display: block;
     overflow: visible;
     max-width: none;
@@ -7592,7 +7628,7 @@ h1 {
     display: block;
     width: auto;
     max-width: none;
-    margin: 12px auto 32px;
+    margin: 20px auto;
     font-size: 0.8em;
     text-align: center;
     text-transform: capitalize;
@@ -7854,17 +7890,36 @@ h1 {
     font-size: 20px;
   }
 
+  .image-44 {
+    width: 20em;
+  }
+
+  .image-44-copy {
+    width: 20em;
+  }
+
+  .image-44-copy-copy {
+    width: 20em;
+  }
+
+  .banner-text {
+    max-width: none;
+    min-width: 3.4em;
+    font-size: 5.8em;
+  }
+
   .grid-holder {
-    display: -ms-grid;
-    display: grid;
-    width: 75%;
-    margin-top: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 95%;
+    margin-top: 0px;
     margin-bottom: 20px;
     padding-top: 0px;
     padding-bottom: 0px;
+    align-self: center;
     grid-auto-columns: 1fr;
-    grid-column-gap: 16px;
-    grid-row-gap: 16px;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto auto;
@@ -8073,7 +8128,7 @@ h1 {
     padding-bottom: 0px;
     padding-left: 0px;
     clear: both;
-    font-size: 0.9px;
+    font-size: 0.6px;
     line-height: 23px;
     font-weight: 500;
     text-transform: capitalize;
@@ -8108,8 +8163,8 @@ h1 {
   }
 
   .grid-3 {
-    width: 70%;
-    margin: 10px auto;
+    width: 50%;
+    margin: 0px auto;
     padding-left: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -8188,7 +8243,8 @@ h1 {
 
   .section-6 {
     width: 100vw;
-    margin-top: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .div-block-61 {
@@ -8218,12 +8274,13 @@ h1 {
   .feature-card.cards {
     width: 220px;
     height: 120px;
+    text-align: left;
   }
 
   .feature-grid {
     width: 90%;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+    -ms-grid-columns: 0.5fr;
+    grid-template-columns: 0.5fr;
   }
 
   .content-section-3 {
@@ -8261,6 +8318,10 @@ h1 {
 
   .card-title-name {
     font-size: 1.5em;
+  }
+
+  .link-11 {
+    font-size: 0.6em;
   }
 }
 
